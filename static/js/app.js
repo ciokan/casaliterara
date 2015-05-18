@@ -22,4 +22,4 @@ if ($('#back-to-top').length) {
 
 var navigateTo = function(unde) {
 	return $("html, body").animate({ scrollTop: $('#'+unde).offset().top }, 1000);
-}
+};
