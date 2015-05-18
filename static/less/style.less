@@ -21,3 +21,29 @@
 #cards {
 	background-image: url("../../static/images/bg_dark.gif");
 }
+
+#back-to-top {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 9999;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	line-height: 60px;
+	background: #E07B53;
+	color: #fff;
+	font-weight: bolder;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	text-decoration: none;
+	transition: opacity 0.2s ease-out;
+	opacity: 0;
+}
+#back-to-top:hover {
+	background: lighten(#E07B53, 20%);
+}
+#back-to-top.show {
+	opacity: 1;
+}
